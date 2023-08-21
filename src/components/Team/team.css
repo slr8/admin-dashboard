@@ -1,0 +1,18 @@
+.team {
+    margin: 15px 10px 10px;
+    width: 104%;
+    height: 80vh;
+}
+
+.MuiDataGrid-root,
+.MuiToolbar-regular.MuiTablePagination-toolbar,
+svg,
+span.MuiButton-startIcon {
+    color: white !important;
+}
+
+.type {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}

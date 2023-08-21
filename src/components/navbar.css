@@ -1,0 +1,39 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px;
+    width: 100%;
+}
+
+.navBarLeft {
+    display: flex;
+    position: relative;
+    margin-left: 5px;
+}
+
+.searchIcon {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+ul.navBar {
+    display: flex;
+    list-style: none;
+}
+
+svg {
+    color: white;
+}
+
+.navBarLeft input[type="text"] {
+    background-color: #514f4f;
+    border: none;
+    padding: 10px;
+}
+
+input::placeholder {
+    color: lightgrey;
+}

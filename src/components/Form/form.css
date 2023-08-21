@@ -1,0 +1,25 @@
+ .formBoxes {
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+     gap: 40px;
+     margin-left: 50px;
+     margin-top: 20px;
+
+ }
+
+ .formBox3,
+ .formBox4,
+ .formBox5,
+ .formBox6,
+ Button {
+     grid-column-start: span 2;
+ }
+
+ .formBoxes input {
+     background-color: black;
+     color: #1976d2;
+ }
+
+ .formBoxes label {
+     color: aliceblue;
+ }
