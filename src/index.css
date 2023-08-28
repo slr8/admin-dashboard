@@ -10,7 +10,6 @@ body,
   font-family: "Source Sans Pro", sans-serif;
   margin: 0;
   padding: 0;
-  color: white;
   background-color: #050f29;
 }
 
@@ -64,4 +63,8 @@ a {
 
 tr.fc-event.fc-event-start {
   color: #54bd9a;
+}
+
+text {
+  fill: #646464 !important
 }

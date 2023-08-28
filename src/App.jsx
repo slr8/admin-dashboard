@@ -8,6 +8,10 @@ import Invoices from "./components/Invoices/Invoices";
 import Form from "./components/Form/Form";
 import Calendar from "./components/Calendar/Calendar";
 import FAQ from "./components/FAQ/FAQ";
+import Bar from "./components/Bar/Bar";
+import Pie from "./components/Pie/Pie";
+import Line from "./components/Line/Line";
+import Geo from "./components/Geo/Geo";
 
 function App() {
   return (
@@ -27,6 +31,10 @@ function App() {
               <Route path="/form" element={<Form />} />
               <Route path="/calendar" element={<Calendar />} />
               <Route path="/faq" element={<FAQ />} />
+              <Route path="/bar" element={<Bar />} />
+              <Route path="/pie" element={<Pie />} />
+              <Route path="/line" element={<Line />} />
+              <Route path="/geography" element={<Geo />} />
             </Routes>
           </div>
         </div>
