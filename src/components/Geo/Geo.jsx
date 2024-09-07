@@ -7,7 +7,7 @@ const Geo = () => {
     return (
         <>
             <Box>
-                <Header title="LINE CHART" text="Simple Line Chart" />
+                <Header title="GEO CHART" text="Simple Geo Chart" />
             </Box>
             <Box height='75vh' ml="50px" mt="30px">
                 <GeoChart />

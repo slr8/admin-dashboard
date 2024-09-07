@@ -9,7 +9,7 @@ const Line = () => {
             <Box>
                 <Header title="LINE CHART" text="Simple Line Chart" />
             </Box>
-            <Box height='75vh' ml="75px">
+            <Box height='75vh' ml="75px" mt='20px'>
                 <LineChart />
             </Box>
         </>

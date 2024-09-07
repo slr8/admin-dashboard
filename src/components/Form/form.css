@@ -23,25 +23,3 @@
  .formBoxes label {
      color: aliceblue;
  }
-
- .circle {
-     position: relative;
-     top: 5px;
-     left: 5px;
-     text-align: center;
-     width: 50px;
-     height: 50px;
-     border-radius: 100%;
-     background-color: black;
- }
-
- .circle-border {
-     position: relative;
-     text-align: center;
-     width: 60px;
-     height: 60px;
-     margin-left: 30%;
-     border-radius: 100%;
-     background-color: black;
-     background: linear-gradient(270deg, blue 50%, transparent 50%), linear-gradient(0deg, blue 50%, green 50%)
- }

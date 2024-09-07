@@ -1,6 +1,6 @@
 import './form.css'
 import * as yup from "yup"
-import { Field, Formik } from "formik";
+import { Formik } from "formik";
 import Header from '../Header/Header';
 import { Button, TextField } from '@mui/material';
 
@@ -34,10 +34,6 @@ const Form = () => {
     return (
         <div>
             <Header title="CREATE USER" text="Create a New User Profile" />
-            <div class="circle-border">
-                <div class="circle">
-                </div>
-            </div>
             <Formik
                 onSubmit={handleFormSubmit}
                 initialValues={initialValues}

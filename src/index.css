@@ -68,3 +68,7 @@ tr.fc-event.fc-event-start {
 text {
   fill: #646464 !important
 }
+
+h2#fc-dom-550 {
+  color: white;
+}

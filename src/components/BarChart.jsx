@@ -16,7 +16,7 @@ const BarChart = () => {
                 'donut'
             ]}
             indexBy="country"
-            margin={{ top: 50, right: 130, bottom: 50, left: 60 }}
+            margin={{ top: 10, right: 100, bottom: 20, left: 30 }}
             padding={0.3}
             valueScale={{ type: 'linear' }}
             indexScale={{ type: 'band', round: true }}

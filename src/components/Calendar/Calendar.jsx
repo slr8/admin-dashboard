@@ -56,7 +56,7 @@ const Calendar = () => {
     return (
 
         <>
-            <Header title="CREATE USER" text="Create a New User Profile" />
+            <Header title="CALENDAR" text="Create New Tasks" />
             <div style={calendarStyles}>
                 <FullCalendar
                     height={'75vh'}

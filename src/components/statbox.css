@@ -1,0 +1,23 @@
+.statBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 27px 0 20px;
+}
+
+.statIcon {
+    color: #54bd9a !important;
+}
+
+.statBoxSpan {
+    color: white;
+    font-weight: 700;
+    margin-top: 5px;
+
+}
+
+.statBoxSecondSpan {
+    color: #54bd9a;
+    margin-top: 5px;
+
+}
